@@ -159,6 +159,7 @@
 
 .formControlMap {
     width: 50vw;
+    margin-bottom: 1.5rem;
 }
 
 .formDescription {
@@ -176,6 +177,7 @@
     font-weight: 500;
     font-size: 1rem;
     padding: 0.5rem 1rem;
+    justify-content: center;
 }
 
 .btnRegister:hover,

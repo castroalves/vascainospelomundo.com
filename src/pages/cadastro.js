@@ -27,16 +27,19 @@ const AddMember = () => {
     const [phoneNumber, setPhoneNumber] = useState();
     const [location, setLocation] = useState();
     const [publishConsent, setPublishConsent] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const handleLocation = (value) => {
         setLocation(value);
     };
 
     const handleAddMember = (data) => {
+        setLoading(true);
         data["location"] = location;
         axios
             .post("/api/add-member", data)
             .then(() => {
+                setLoading(false);
                 toast.success("Cadastro realizado com sucesso!");
                 Router.push("/");
             })
@@ -159,8 +162,12 @@ const AddMember = () => {
                         </label>
                     </div> */}
                     <div className={styles.formControl}>
-                        <button type="submit" className="btn-register">
-                            Cadastrar
+                        <button
+                            type="submit"
+                            className={styles.btnRegister}
+                            disabled={loading}
+                        >
+                            {!loading ? "Cadastrar" : "Aguarde..."}
                         </button>
                     </div>
                 </form>
