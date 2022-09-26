@@ -402,10 +402,10 @@ jose@^4.1.4, jose@^4.9.3:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-leaflet@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.7.1.tgz#10d684916edfe1bf41d688a3b97127c0322a2a19"
-  integrity sha512-/xwPEBidtg69Q3HlqPdU3DnrXQOvQU/CCHA1tcDQVzOwm91YMYaILjNp7L4Eaw5Z4sOYdbBz6koWyibppd8Zqw==
+leaflet@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.9.1.tgz#73c3c31233f5bc69ad3dd681e67860ba28c87291"
+  integrity sha512-5FcDAMTLAuOq0RisQQbTFatl8Sl4bM0gMrBfuHbl7CYbYJv45BfCS8oU3T644MLjleBq1Ncq541QEA1pqUGTFA==
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
